@@ -22,8 +22,8 @@ class MyQueue:
         
 
     def empty(self) -> bool:
-        if not self.stack1:
-            return False
+        return not self.stack1
+     
  
         
 
